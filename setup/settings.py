@@ -108,7 +108,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Diretorio onde estao os arquivos estaticos
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+# Caminho root do arquivos estaticos
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/assets/')
